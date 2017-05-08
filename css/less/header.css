@@ -1,0 +1,37 @@
+header {
+  background: #f7862a;
+  display: flex;
+  justify-content: space-around;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+  align-items: center;
+  padding: 10px 0 10px 0;
+}
+header img {
+  height: 70px;
+}
+header nav img {
+  height: 70px;
+}
+header nav .menu {
+  display: none;
+  justify-content: space-between;
+  flex-direction: row;
+}
+header nav .menu li {
+  list-style-type: none;
+  font-size: 18px;
+  padding: 10px;
+}
+header nav .menu li a {
+  color: #ffffff;
+}
+header nav .menu li a:hover {
+  text-decoration: none;
+}
+header nav .menu li:hover {
+  background: orangered;
+  border-radius: 15px;
+}

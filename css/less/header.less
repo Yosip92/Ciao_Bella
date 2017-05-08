@@ -1,0 +1,45 @@
+header {
+    background: #f7862a;
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    align-items: center;
+    padding: 10px 0 10px 0;
+    img {
+        height: 70px;
+    }
+    nav {
+        img {
+            height: 70px;
+        }
+        .menu {
+            display: none;
+            justify-content: space-between;
+            flex-direction: row;
+            li {
+                list-style-type: none;
+                font-size: 18px;
+                padding: 10px;
+                a {
+                    color: #ffffff;
+                }
+                a:hover {
+                    text-decoration: none;
+                }
+            }
+            li:hover {
+                background: orangered;
+                border-radius: 15px;
+            }
+        }
+    }     
+}
+
+@media (max-width: 400px) {
+    .menu {
+
+    }
+}
