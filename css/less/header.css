@@ -9,14 +9,8 @@ header {
   align-items: center;
   padding: 10px 0 10px 0;
 }
-header img {
-  height: 70px;
-}
-header nav img {
-  height: 70px;
-}
 header nav .menu {
-  display: none;
+  display: flex;
   justify-content: space-between;
   flex-direction: row;
 }

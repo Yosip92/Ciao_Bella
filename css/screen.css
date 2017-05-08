@@ -2,3 +2,6 @@
 body {
   background: orange;
 }
+body .logo {
+  height: 70px;
+}
