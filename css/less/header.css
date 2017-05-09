@@ -2,12 +2,12 @@ header {
   background: #f7862a;
   display: flex;
   justify-content: space-around;
-  position: fixed;
   width: 100%;
+  height: 90px;
   top: 0;
-  z-index: 1000;
   align-items: center;
   padding: 10px 0 10px 0;
+  background-image: url(../../img/firewood.png);
 }
 header nav .menu {
   display: flex;
