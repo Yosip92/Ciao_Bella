@@ -1,8 +1,10 @@
 @import 'less/header.css';
 @import 'less/about.css';
 @import 'less/location.css';
+@import 'less/menu.css';
 body {
-  background: orange;
+  background-image: url("../img/OF18NR0.jpg");
+  background-size: 100%;
 }
 body .logo {
   height: 70px;
