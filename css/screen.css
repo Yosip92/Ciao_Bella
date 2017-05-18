@@ -4,6 +4,7 @@
 @import 'less/menu.css';
 body {
   background-image: url("../img/OF18NR0.jpg");
+  background-attachment: fixed;
   background-size: 100%;
 }
 body .logo {
