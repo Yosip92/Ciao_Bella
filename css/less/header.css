@@ -27,5 +27,9 @@ header nav .menu li a:hover {
 }
 header nav .menu li:hover {
   background: orangered;
-  border-radius: 15px;
+  border-radius: 15px 15px 0 0;
+}
+header nav .menu .selected {
+  background: green;
+  border-radius: 15px 15px 0 0;
 }
