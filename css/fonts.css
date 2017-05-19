@@ -1,0 +1,14 @@
+/*MarckScript*/
+@font-face {
+    font-family: 'MarckScript';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/MarckScript/MarckScript-Regular.ttf');
+}
+/*Neucha*/
+@font-face {
+    font-family: 'Neucha';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/Neucha/Neucha.ttf');
+}

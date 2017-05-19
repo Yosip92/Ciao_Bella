@@ -8,11 +8,13 @@ header {
   align-items: center;
   padding: 10px 0 10px 0;
   background-image: url(../../img/firewood.png);
+  font-family: 'MarckScript', serif;
 }
 header nav .menu {
   display: flex;
   justify-content: space-between;
   flex-direction: row;
+  font-family: 'Neucha', serif;
 }
 header nav .menu li {
   list-style-type: none;

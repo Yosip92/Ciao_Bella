@@ -1,7 +1,16 @@
+@import '../css/fonts.css';
 @import 'less/header.css';
 @import 'less/about.css';
 @import 'less/location.css';
 @import 'less/menu.css';
+* {
+  -webkit-box-sizing: border-box;
+  /* Android ≤ 2.3, iOS ≤ 4 */
+  -moz-box-sizing: border-box;
+  /* Firefox ≤ 28 */
+  box-sizing: border-box;
+  /* Chrome, Firefox 29+, IE 8+, Opera, Safari 5.1 */
+}
 html {
   height: 100%;
 }
@@ -10,6 +19,7 @@ body {
   background-size: 40px 40px;
   background-attachment: fixed;
   margin-top: 110px;
+  font-family: 'MarckScript', serif;
 }
 body header {
   position: fixed;
@@ -17,7 +27,4 @@ body header {
 }
 body .logo {
   height: 70px;
-}
-body .text1 {
-  background: #faebd4;
 }

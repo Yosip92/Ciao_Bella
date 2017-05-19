@@ -1,9 +1,11 @@
 .section-location .location1 .text-title {
-  font-family: 'Times New Roman', Times, serif;
+  font-family: 'Neucha', serif;
   font-size: 20px;
   line-height: 22px;
   padding: 15px;
-  color: #ffffff;
+  color: black;
+  text-indent: 20px;
+  /* Отступ первой строки в пикселах */
 }
 .section-location .location1 .info-location {
   display: flex;
@@ -11,7 +13,7 @@
   align-items: center;
 }
 .section-location .location1 .info-location .info-text {
-  color: #ffffff;
+  color: black;
   text-align: right;
   font-size: 20px;
 }
