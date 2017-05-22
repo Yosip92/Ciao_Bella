@@ -10,7 +10,32 @@
   margin-left: 10px;
 }
 .choose-item:hover {
-  background: green;
+  background: orangered;
   text-decoration: none;
   cursor: pointer;
+}
+#menu-dishes {
+  background: #ff9900;
+  display: none;
+}
+#menu-dishes .dishes {
+  font-size: 24px;
+  text-decoration: none;
+  list-style-image: url('../../img/Pizza-50.png');
+}
+#menu-dishes .dishes:hover {
+  background: orangered;
+  text-decoration: none;
+  cursor: pointer;
+}
+#menu-dishes p {
+  font-size: 24px;
+  text-decoration: none;
+}
+#menu-dishes p:hover {
+  background: orangered;
+  cursor: pointer;
+}
+#menu-dishes .menu-drinks {
+  display: none;
 }

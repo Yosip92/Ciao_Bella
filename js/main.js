@@ -1,4 +1,8 @@
 function menuFunction() {
-    var navigation = '<ul style="background: green; font-size: 24px; text-decoration: none;"><li>Піца</li><li>Гарячі страви</li><li>Салати</li><li>Паста</li><li>Млинці</li><li>Напої</li><li>Сніданки</li></ul>';
-    $('#navigation').html(navigation);
-}
+    $('#menu-dishes').slideToggle(200);
+    return false;
+};
+function menuFunction1() {
+    $('.menu-drinks').slideToggle(200);
+    return false;
+};
