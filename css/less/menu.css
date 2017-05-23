@@ -49,3 +49,32 @@
 #menu-dishes .menu-drinks {
   display: none;
 }
+.item1 {
+  background: white;
+  width: 25%;
+  border: solid 2px black;
+}
+.item1 img {
+  width: 250px;
+}
+.item1 .button-buy {
+  text-align: center;
+}
+.item1 .button-buy .buy {
+  background: #f7862a;
+  padding: 10px 15px;
+}
+.item1:hover {
+  background: greenyellow;
+  cursor: pointer;
+}
+@media screen and (min-width: 760px) {
+  .choose-item {
+    display: none;
+  }
+  #menu-dishes {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}

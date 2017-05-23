@@ -54,3 +54,34 @@
         display: none;
     }
 }
+
+.item1 {
+    background: white;
+    width: 25%;
+    border: solid 2px black;
+    img {
+        width: 250px;
+    }
+    .button-buy {
+        text-align: center;
+        .buy {
+            background: #f7862a;
+            padding: 10px 15px;
+        }
+    }  
+    &:hover {
+        background: greenyellow;
+        cursor: pointer;
+    }
+}
+
+@media screen and (min-width: 760px) {
+    .choose-item {
+        display: none;
+    }
+    #menu-dishes {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
