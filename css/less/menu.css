@@ -4,29 +4,38 @@
   background: #ff9900;
   margin-top: -20px;
   align-items: center;
+  color: #ffffff;
+}
+.choose-item img {
+  width: 40px;
 }
 .choose-item p {
   font-size: 24px;
   margin-left: 10px;
+  margin-top: 15px;
 }
 .choose-item:hover {
   background: orangered;
   text-decoration: none;
   cursor: pointer;
+  color: #000000;
 }
 #menu-dishes {
   background: #ff9900;
   display: none;
+  color: #ffffff;
 }
 #menu-dishes .dishes {
   font-size: 24px;
   text-decoration: none;
   list-style-image: url('../../img/Pizza-50.png');
+  margin-left: 20px;
 }
 #menu-dishes .dishes:hover {
   background: orangered;
   text-decoration: none;
   cursor: pointer;
+  color: #000000;
 }
 #menu-dishes p {
   font-size: 24px;
@@ -35,6 +44,7 @@
 #menu-dishes p:hover {
   background: orangered;
   cursor: pointer;
+  color: #000000;
 }
 #menu-dishes .menu-drinks {
   display: none;
