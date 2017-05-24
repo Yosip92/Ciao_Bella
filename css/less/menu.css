@@ -55,7 +55,7 @@
   border: solid 2px black;
 }
 .item1 img {
-  width: 250px;
+  width: 100%;
 }
 .item1 .button-buy {
   text-align: center;
