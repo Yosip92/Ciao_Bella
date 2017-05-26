@@ -6,3 +6,8 @@ function menuFunction() {
 //     $('.menu-drinks').slideToggle(200);
 //     return false;
 // };
+function order() {
+    var amount = 0;
+    amount += 1;
+    $('.basket').html(amount);
+};
