@@ -10,91 +10,149 @@
     <link rel="stylesheet" href="../css/screen.css">
 </head>
 <body>
-    <header>
-        <a href="../index.html">
-            <img class="logo" src="../img/c-b-logo.png" alt="">
-        </a>
-        <nav>
-            <ul class="menu">
-                <li class="selected">
-                    <a href="">Меню</a>
-                </li>
-                <li class="only-wide">
-                    <a href="restaurants.html">Ресторани</a>
-                </li>
-                <li>
-                    <a href="shares.html">Акції</a>
-                </li>
-                <li class="only-wide">
-                    <a href="reviews.html">Відгуки</a>
-                </li>
-                <li class="only-wide">
-                    <a href="vacancies.html">Вакансії</a>
-                </li>
-                <li>
-                    <a href="contacts.html">Контакти</a>
-                </li>
-            </ul>
-        </nav>
-    </header>
-   
-    <div class="container">
-        <a class="choose-item" onclick="menuFunction()">
-            <img class="button" src="../img/Menu-50.png" alt="">
-            <p>Оберіть страву</p>
-        </a>
-        <div id="navigation">
-            <div id="menu-dishes">
-                <div class="dishes">Піца</div>
-                <div class="dishes">Салати</div>
-                <div class="dishes">Гарячі страви</div>
-                <div class="dishes">Млинці</div>
-                <div class="dishes">Паста</div>
-                <div class="dishes">Сніданки</div>
-                <div class="dishes">Напої</div>
-            </div>
-            <h3 class="basket"></h3>
-            <!--<ul id="menu-dishes">
-                <li class="dishes">Піца</li>
-                <li class="dishes">Гарячі страви</li>
-                <li class="dishes">Салати</li>
-                <li class="dishes">Паста</li>
-                <li class="dishes">Млинці</li>
-                <li class="dishes"><p>Напої</p>
+    <div class="page-content">
+        <header>
+            <a href="../index.html">
+                <img class="logo" src="../img/c-b-logo.png" alt="">
+            </a>
+            <nav>
+                <ul class="menu">
+                    <li class="selected">
+                        <a href="">Меню</a>
+                    </li>
+                    <li class="only-wide">
+                        <a href="restaurants.html">Ресторани</a>
+                    </li>
+                    <li>
+                        <a href="shares.html">Акції</a>
+                    </li>
+                    <li class="only-wide">
+                        <a href="reviews.html">Відгуки</a>
+                    </li>
+                    <li class="only-wide">
+                        <a href="vacancies.html">Вакансії</a>
+                    </li>
+                    <li>
+                        <a href="contacts.html">Контакти</a>
+                    </li>
+                    <li>
+                        <a href="cart.html">
+                            <img class="cart" src="../img/Shopping Cart-50.png" alt="Корзина">
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <div class="container">
+            <a class="choose-item" onclick="menuFunction()">
+                <img class="button" src="../img/Menu-50.png" alt="">
+                <p>Оберіть страву</p>
+            </a>
+            <div id="navigation">
+                <div id="menu-dishes">
+                    <div class="dishes" onclick="pizzas()">Піца</div>
+                    <div class="dishes" onclick="salads()">Салати</div>
+                    <div class="dishes">Гарячі страви</div>
+                    <div class="dishes">Млинці</div>
+                    <div class="dishes">Паста</div>
+                    <div class="dishes">Сніданки</div>
+                    <div class="dishes">Напої</div>
+                </div>
+                <h3 class="basket"></h3>
+                <!--<ul id="menu-dishes">
+                    <li class="dishes">Піца</li>
+                    <li class="dishes">Гарячі страви</li>
+                    <li class="dishes">Салати</li>
+                    <li class="dishes">Паста</li>
+                    <li class="dishes">Млинці</li>
+                    <li class="dishes"><p>Напої</p>
+                        <ul class="menu-drinks">
+                    <li class="dishes">Напої
                     <ul class="menu-drinks">
-                <li class="dishes">Напої
-                <ul class="menu-drinks">
-                        <li class="dishes">Алкольні напої</li>
-                        <li class="dishes">Вина</li>
-                        <li class="dishes">Пиво</li>
-                        <li class="dishes">Води</li>
-                    </ul>
-                </li>
-                <li class="dishes">Сніданки</li>
-            </ul>-->
+                            <li class="dishes">Алкольні напої</li>
+                            <li class="dishes">Вина</li>
+                            <li class="dishes">Пиво</li>
+                            <li class="dishes">Води</li>
+                        </ul>
+                    </li>
+                    <li class="dishes">Сніданки</li>
+                </ul>-->
+            </div>
         </div>
-    </div>
-    <div class="container">
-        <div class="row">
-            <div class="col-xs-6 col-md-3">
-                <div class="item1">
-                    <img src="../img/coffe1.png" alt="">
-                    <h2>Фокача</h2>
-                    <p>Олія, розмарин, сіль</p>
-                    <form>
-                        <input type="radio" name="gender" value="male">
-                            <span>160</span>гр
-                        <input type="radio" name="gender" value="female" checked>
-                            <span>480</span>гр<br>
-                        <div class="button-buy">
-                            <input type="button" onclick="order()" class="buy" value="Замовити">
-                        </div>
-                    </form>
+        <div class="container">
+            <div class="row item-holder">
+                <div class="col-xs-12 col-md-3">
+                    <div class="item1 pizza">
+                        <img src="../img/pasta.png" alt="">
+                        <h2>Фокача</h2>
+                        <p>Олія, розмарин, сіль</p>
+                        <form>
+                            <input type="radio" name="gender" value="male">
+                                <span>160</span>гр
+                            <input type="radio" name="gender" value="female" checked>
+                                <span>480</span>гр<br>
+                            <div class="button-buy">
+                                <input type="button" onclick="order()" class="buy" value="Замовити">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-md-3">
+                    <div class="item1 salad">
+                        <img src="../img/pasta.png" alt="">
+                        <h2>Фієста</h2>
+                        <p>Сир твердий, свіжі печериці, перець болгарський, куряче філе, цибуля, картопля, майонез, оцет бальзамічний</p>
+                        <form>
+                            <input type="radio" name="gender" value="male" checked>
+                                <span>250</span>гр
+                            <div class="button-buy">
+                                <input type="button" onclick="order()" class="buy" value="Замовити">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-md-3">
+                    <div class="item1 salad">
+                        <img src="../img/pasta.png" alt="">
+                        <h2>Маргарита з прошутто котто</h2>
+                        <p>салатний мікс, помідори черрі, горгонзолла, кедрові горіхи, олія оливкова, прошутто, крудо</p>
+                        <form>
+                            <input type="radio" name="gender" value="male" checked>
+                                <span>250</span>гр
+                            <div class="button-buy">
+                                <input type="button" onclick="order()" class="buy" value="Замовити">
+                            </div>
+                        </form>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-
+    <footer>
+        <div class="foot container">
+            <div>
+                <div>
+                    <img src="../img/mail.png" alt="mail">
+                    <span>
+                        <a target="blank" href="mailto:yosip92@gmail.com">ciao-bella@gmail.com</a>
+                    </span>
+                </div>
+                <div>
+                    <img src="../img/facebook.png" alt="facebook">
+                    <span>
+                        <a target="blank" href="https://www.facebook.com/ciaobella.lviv/">Ми у Facebook</a>
+                    </span>
+                </div>
+                <div>
+                    <img src="../img/vk.png" alt="vk">
+                    <span>
+                        <a target="blank" href="https://vk.com/public67557435">Ми Вконтакті</a>
+                    </span>
+                </div>
+            </div>
+            <p>All rights reserved</p>
+        </div>
+    </footer>
     <!--Vendor js-->
     <script src="../vendor/jquery/jquery.js"></script>
     <script src="../vendor/bootstrap/js/bootstrap.min.js"></script>

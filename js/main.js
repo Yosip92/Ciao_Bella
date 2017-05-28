@@ -11,3 +11,20 @@ function order() {
     amount += 1;
     $('.basket').html(amount);
 };
+
+// function salads() {
+//     var salad;
+//     salad = $('.salad');
+//     $('.pizza').css('display','none');
+//     $('.item-holder').html(salad);
+// }
+// function pizzas() {
+//     var pizza;
+//     pizza = $('.pizza');
+//     $('.pizza').css('display','block');
+//     $('.item-holder').html(pizza);
+// }
+// function salads() {
+//     $('.salad').slideToggle(0);
+//     return false;
+// };

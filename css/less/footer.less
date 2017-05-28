@@ -1,0 +1,27 @@
+footer {
+    background: #f7862a;
+    bottom: 0;
+    // left: 0;
+    // position: absolute;
+    width: 100%;
+    border-top: solid 30px;
+    border-image: url(../../img/border.png) 30 round round;
+    .foot {
+        display: flex;
+        justify-content: space-between;
+        padding: 5px;
+        color: #ffffff;
+        a {
+            color: #ffffff;
+        }
+        p {
+            margin: 0;
+        }
+    }
+}
+
+@media screen and (max-width: 760px) {
+    footer p {
+        display: none;
+    }
+}

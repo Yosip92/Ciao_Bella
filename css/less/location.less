@@ -12,8 +12,7 @@
             display: flex;
             justify-content: space-between;
             align-items: center;
-            .info-text{
-                
+            .info-text {   
                 color: black;
                 text-align: right;
                 font-size: 20px;
@@ -26,5 +25,13 @@
                 }
             }
         }
+    }
+}
+@media screen and (max-width: 760px) {
+    .info-location iframe {
+        display: none;
+    }
+    .info-text {
+        text-align: none;
     }
 }

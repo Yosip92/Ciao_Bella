@@ -24,3 +24,11 @@
   margin-left: 10px;
   margin-bottom: 10px;
 }
+@media screen and (max-width: 760px) {
+  .info-location iframe {
+    display: none;
+  }
+  .info-text {
+    text-align: none;
+  }
+}

@@ -64,26 +64,37 @@
     background: #faebd4;
     border: ridge 5px;
     font-size: 16px;
-    padding-bottom: 20px;
     padding: 0;
     margin: 5px;
     border-radius: 10px;
+    padding-bottom: 10px;
+    height: 520px;
+    position: relative;
     h2 {
         margin-left: 10px;
+        // height: 20px;
+        font-family: 'Neucha', serif;
+        line-height: 1;
     }
     p {
         margin-left: 10px;
+        // height: 100px;
     }
     input {
         margin-left: 10px;
     }
     img {
         width: 100%;
+        height: 250px;
     }
     .button-buy {
         text-align: center;
         font-size: 18px;
         margin-top: 10px;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
         .buy {
             background: #f7862a;
             padding: 10px 15px;
@@ -97,6 +108,9 @@
     &:hover {
         box-shadow: 10px 10px 20px grey;
         cursor: pointer;
+        h2 {
+            color: gray;
+        }
     }
 }
 

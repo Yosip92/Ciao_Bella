@@ -3,6 +3,7 @@
 @import 'less/about.css';
 @import 'less/location.css';
 @import 'less/menu.css';
+@import 'less/footer.css';
 * {
   -webkit-box-sizing: border-box;
   /* Android ≤ 2.3, iOS ≤ 4 */
@@ -20,6 +21,7 @@ body {
   background-attachment: fixed;
   margin-top: 110px;
   font-family: 'MarckScript', serif;
+  height: 100%;
 }
 body header {
   position: fixed;
@@ -27,6 +29,14 @@ body header {
 }
 body .logo {
   height: 70px;
+}
+body .page-content {
+  min-height: 100%;
+  padding-bottom: 100px;
+}
+body footer {
+  height: 100px;
+  margin-top: -100px;
 }
 @media screen and (max-width: 760px) {
   .only-wide {

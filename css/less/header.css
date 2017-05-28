@@ -24,6 +24,9 @@ header nav .menu li {
 header nav .menu li a {
   color: #ffffff;
 }
+header nav .menu li a .cart {
+  width: 25px;
+}
 header nav .menu li a:hover {
   text-decoration: none;
 }
