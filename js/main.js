@@ -12,7 +12,7 @@ function order() {
     if(amount0 == 0) {
         amount = amount0 + 1;
     } else {
-
+        
     }
     $('.basket').html(amount);
 };
