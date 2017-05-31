@@ -7,8 +7,13 @@ function menuFunction() {
 //     return false;
 // };
 function order() {
-    var amount = 0;
-    amount += 1;
+    var amount, amount0 = 0;
+    amount = amount0 + 1;
+    if(amount0 == 0) {
+        amount = amount0 + 1;
+    } else {
+
+    }
     $('.basket').html(amount);
 };
 
