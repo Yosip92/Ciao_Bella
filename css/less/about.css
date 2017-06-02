@@ -9,13 +9,13 @@
   display: flex;
 }
 .section-about-us .block1 .text1 {
-  font-family: 'Neucha', serif;
   font-size: 20px;
   color: black;
   line-height: 22px;
   padding: 40px 30px;
 }
 .section-about-us .block1 .text1 h1 {
+  font-family: 'Neucha', serif;
   text-align: center;
   padding-bottom: 20px;
   position: relative;
@@ -50,4 +50,10 @@
 .section-about-us .block1 img {
   width: 300px;
   padding-top: 25px;
+}
+.section-about-us .block2 h2 {
+  font-family: 'Neucha', serif;
+}
+.section-about-us .block2 h3 {
+  font-family: 'Neucha', serif;
 }
