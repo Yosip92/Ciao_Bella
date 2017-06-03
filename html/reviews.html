@@ -43,11 +43,37 @@
                 </ul>
             </nav>
         </header>
-        <h1>Напишіть, як Ви провели в нас час</h1>
-        <form>
-            <label for=""></label>
-        </form>
-        <textarea name="" id="" cols="30" rows="10"></textarea>
+        <div class="container section-reviews">
+            <h1>Нам цікава Ваша думка:</h1>
+            <p>
+                Для нас важливо знати....
+            </p>
+            <div class="form-reviews">
+                <fieldset>
+                    <legend>Заповніть форму</legend>
+                    <div class="row info-user">
+                        <form action="" method="GET" name="reviewsform">
+                            <div class="col-sm-6 ">  
+                                <div class="form-titles">
+                                    <label for="focusName">Ім'я</label>
+                                </div>
+                                <input type="text" name="username" id="focusName" value="">
+                                <div class="form-titles">
+                                    <label for="focusEmail">Ваш електронний адрес</label>
+                                </div>
+                                <input type="email" name="useremail" id="focusEmail" value="">
+                            </div>
+                            <div class="col-sm-6 commentarea">
+                                <textarea name="" id="" cols="50" rows="10" placeholder="Відгук"></textarea>
+                            </div>
+                            <div class="buttons">
+                                <input type="button" class="button1" value="Залишити відгук">
+                            </div>
+                        </form>
+                    </div>
+                </fieldset> 
+            </div>
+        </div>
     </div>
     <footer>
         <div class="foot container">

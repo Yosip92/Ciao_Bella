@@ -1,0 +1,32 @@
+.photo-gallery {
+  margin-top: 50px;
+  padding: 25px;
+}
+.photo-gallery h2 {
+  font-family: 'Neucha', serif;
+  text-align: center;
+  margin-bottom: 20px;
+  position: relative;
+}
+.photo-gallery h2:after {
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 75px;
+  height: 1px;
+  content: '';
+  margin: auto;
+  background: #f7862a;
+  position: absolute;
+}
+.photo-gallery h2:before {
+  left: 0;
+  right: -10px;
+  margin: auto;
+  bottom: -4px;
+  width: 75px;
+  height: 1px;
+  content: '';
+  background: #f7862a;
+  position: absolute;
+}

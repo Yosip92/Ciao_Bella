@@ -1,0 +1,59 @@
+.section-shares {
+  background: #faebd4;
+  border: solid 3px black;
+  border-radius: 10px;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  font-size: 20px;
+  padding: 25px;
+}
+.section-shares .our_shares_comment {
+  margin-top: 20px;
+}
+.section-shares .our_shares_comment p {
+  text-indent: 20px;
+}
+.section-shares h1 {
+  text-align: center;
+  font-family: 'Neucha', serif;
+  padding-bottom: 20px;
+  position: relative;
+}
+.section-shares h1:after {
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 75px;
+  height: 1px;
+  content: '';
+  margin: auto;
+  background: #f7862a;
+  position: absolute;
+}
+.section-shares h1:before {
+  left: 0;
+  right: -10px;
+  margin: auto;
+  bottom: -4px;
+  width: 75px;
+  height: 1px;
+  content: '';
+  background: #f7862a;
+  position: absolute;
+}
+.section-shares .shares-title h2 {
+  text-align: center;
+  font-size: 32px;
+  font-family: 'Neucha', serif;
+}
+.section-shares .shares-title .picture {
+  width: 25%;
+}
+.section-shares .shares-title .our_shares {
+  display: flex;
+  margin: 20px;
+}
+.section-shares .shares-title .our_shares .info-text {
+  margin-left: 20px;
+  padding-left: 20px;
+}
