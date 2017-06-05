@@ -10,6 +10,15 @@
     <link rel="stylesheet" href="../css/screen.css">
 </head>
 <body>
+    <script>
+        // (function(){
+        //     if(sessionStorage.getItem('todos')) {
+        //         $('#todos1').html(sessionStorage.getItem('todos'));
+        //     } else {
+        //         $('#todos1').html('Choose dish');
+        //     }
+        // })()
+    </script>
     <div class="page-content">
         <header>
             <a href="../index.html">
@@ -20,7 +29,7 @@
                     <li>
                         <a href="menu.html">Меню</a>
                     </li>
-                    <li>
+                    <li class="only-wide">
                         <a href="restaurants.html">Фотогалерея</a>
                     </li>
                     <li>
@@ -43,6 +52,7 @@
                 </ul>
             </nav>
         </header>
+        <div id="todos1"></div>
     </div>
     <footer>
         <div class="foot container">

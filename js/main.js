@@ -6,16 +6,23 @@ function menuFunction() {
 //     $('.menu-drinks').slideToggle(200);
 //     return false;
 // };
-function order() {
-    var amount, amount0 = 0;
-    amount = amount0 + 1;
-    if(amount0 == 0) {
-        amount = amount0 + 1;
-    } else {
+// function order() {
+//     var amount, amount0 = 0;
+//     amount = amount0 + 1;
+//     if(amount0 == 0) {
+//         amount = amount0 + 1;
+//     } else {
         
-    }
-    $('.basket').html(amount);
-};
+//     }
+//     $('.basket').html(amount);
+// };
+$(document).ready(function() {
+    $('.buy').click(function() {
+        $('.basket').html(+$('.basket').html()+1);
+    });
+    var todos = $('#todos').html();
+    sessionStorage.setItem('todos', todos123);
+});
 
 // function salads() {
 //     var salad;
