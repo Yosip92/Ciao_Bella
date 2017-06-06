@@ -57,3 +57,15 @@
   margin-left: 20px;
   padding-left: 20px;
 }
+@media screen and (max-width: 992px) {
+  .picture {
+    display: none;
+  }
+  .our_shares_comment .shares-title .our_shares {
+    margin: 0;
+  }
+  .our_shares_comment .shares-title .our_shares .info-text {
+    margin: 0;
+    padding: 20px 0;
+  }
+}

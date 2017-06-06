@@ -2,26 +2,14 @@ function menuFunction() {
     $('#menu-dishes').slideToggle(200);
     return false;
 };
-// function menuFunction1() {
-//     $('.menu-drinks').slideToggle(200);
-//     return false;
-// };
-// function order() {
-//     var amount, amount0 = 0;
-//     amount = amount0 + 1;
-//     if(amount0 == 0) {
-//         amount = amount0 + 1;
-//     } else {
-        
-//     }
-//     $('.basket').html(amount);
-// };
+
 $(document).ready(function() {
     $('.buy').click(function() {
         $('.basket').html(+$('.basket').html()+1);
+        $('.basket').css('padding', '6px');
     });
-    var todos = $('#todos').html();
-    sessionStorage.setItem('todos', todos123);
+    // var todos = $('#todos').html();
+    // sessionStorage.setItem('todos', todos123);
 });
 
 // function salads() {
