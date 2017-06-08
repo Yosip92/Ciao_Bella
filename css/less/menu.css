@@ -110,6 +110,7 @@
 }
 .call {
   background: green;
+  text-align: center;
 }
 @media screen and (min-width: 760px) {
   .choose-item {
