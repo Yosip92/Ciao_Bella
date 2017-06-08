@@ -108,6 +108,9 @@
 .item1:hover h2 {
   color: gray;
 }
+.call {
+  background: green;
+}
 @media screen and (min-width: 760px) {
   .choose-item {
     display: none;
